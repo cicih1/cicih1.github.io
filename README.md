@@ -1,6 +1,8 @@
 # Yanxi Chen — academic website
 
-Static academic website for https://cicih1.github.io/.
+Complete academic portfolio for https://cicih1.github.io/.
+
+The website includes research and publications, all four research appointments, engineering and leadership projects, two pending patent applications, education and coursework, honors, volunteer service, and tools and skills. Supporting image provenance is recorded in `ASSET_SOURCES.md`.
 
 ## Edit
 
