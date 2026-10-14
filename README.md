@@ -28,6 +28,8 @@ The information architecture is inspired by https://tairanhe.com/; the source an
 
 ## Visitor statistics
 
-Umami Cloud tracks this domain using public website ID `4b967c95-93ae-43ca-9a20-58d74b66b744`. The bottom of the page embeds a read-only board with a world map and aggregate metrics: https://cloud.umami.is/share/bcpFTc8xqWInfQnd. Manage the board in the owner's Umami Cloud account under Boards. Tracking begins with this deployment; it cannot recover visits from before installation.
+Umami Cloud tracks this domain using public website ID `4b967c95-93ae-43ca-9a20-58d74b66b744`. The bottom of the page shows one lifetime page-view total and a compact world map, reading only aggregate public statistics from this read-only share: https://cloud.umami.is/analytics/us/share/bcpFTc8xqWInfQnd. Manage the board in the owner's Umami Cloud account under Boards. Tracking begins with this deployment; it cannot recover visits from before installation.
 
 The selected coursework contains only A grades from the supplied WES evaluation. The private transcript and original presentation are not published. Five research videos are compressed H.264 MP4 files with native controls, no autoplay, and no preloading.
+
+`assets/visitors.js` lazily loads the total and country aggregates when the footer approaches the viewport. No account credentials or API keys are used; the public share token is fetched at runtime and kept in memory. A failed request shows an unavailable message rather than an invented zero. The full Umami dashboard remains available to the owner.

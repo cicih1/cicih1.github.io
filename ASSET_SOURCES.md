@@ -22,3 +22,7 @@ Scholarship grades and academic years were checked against the supplied certific
 The BioNACH wordmark and assets under `assets/media/` were extracted from the owner-provided research presentation (Yanxi Chen.pptx). Slides 4–6 supply pose perception, fiber sensing, and pump demonstrations; slides 7–8 supply endovascular platform and experiment images; slide 9 supplies mechanical project images and demonstrations. Videos are web-encoded H.264, audio removed, with no changes to the demonstrated sequence. All five video clips use native controls and load only on demand.
 
 Publication metadata follows the October 14, 2026 CV. Selected courses and the GPA use the owner-provided WES evaluation; only A-grade courses are listed. The evaluation document and its reference number are not published.
+
+## Visitor map
+
+Country outlines and ISO mappings are derived from Umami’s `public/datamaps.world.json` and `src/lib/constants.ts` (https://github.com/umami-software/umami), under the MIT license. The license is included at `assets/licenses/umami-map-MIT.txt`. A compact equirectangular projection is generated locally; visitor counts and locations come from the owner’s public, read-only Umami share.
