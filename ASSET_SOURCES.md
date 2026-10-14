@@ -16,3 +16,9 @@ Images identify research, affiliations, and experiences; institutional marks do 
 | `assets/certificates/jiangling-volunteer.jpg` | Owner-provided Jiangling volunteer recognition certificate, December 2023. |
 
 Scholarship grades and academic years were checked against the supplied certificates. The SITP project completion was checked against the April 2025 certificate. Those originals and the conference emails are not included in the public repository because they contain student IDs or third-party contact details.
+
+## October 2026 update
+
+The BioNACH wordmark and assets under `assets/media/` were extracted from the owner-provided research presentation (Yanxi Chen.pptx). Slides 4–6 supply pose perception, fiber sensing, and pump demonstrations; slides 7–8 supply endovascular platform and experiment images; slide 9 supplies mechanical project images and demonstrations. Videos are web-encoded H.264, audio removed, with no changes to the demonstrated sequence. All five video clips use native controls and load only on demand.
+
+Publication metadata follows the October 14, 2026 CV. Selected courses and the GPA use the owner-provided WES evaluation; only A-grade courses are listed. The evaluation document and its reference number are not published.

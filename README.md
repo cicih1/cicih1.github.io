@@ -8,11 +8,11 @@ The website includes research and publications, all four research appointments, 
 
 - `index.html`: biography, publication statuses, research experience, contact links.
 - `style.css`: layout, typography, mobile and print styles.
-- `assets/YanxiCHEN_CV.pdf`: original CV, dated September 24, 2026.
+- `assets/YanxiCHEN_CV.pdf`: original CV, dated October 14, 2026.
 - `assets/yanxi-chen.png`: portrait from Yanxi Chen's public GitHub profile.
 - `assets/endovascular.png`: Figure 1 extracted from Chen et al., arXiv:2607.00066v1, CC BY 4.0. The figure links to the paper on the website; the original attribution is retained here.
 
-No build step or JavaScript is required. The site works with keyboard navigation and with JavaScript disabled.
+No build step is required. Core content, photographs and native video controls work with JavaScript disabled. Umami Cloud provides optional visitor analytics; its tracker runs only on cicih1.github.io.
 
 ## Preview
 
@@ -25,3 +25,9 @@ Create a **public** repository named `cicih1.github.io` under `cicih1`, and push
 Publication titles, authors, dates, and manuscript statuses are based on the supplied CV. Under-review and in-revision manuscripts are explicitly labeled. Private research repositories are not linked or published. The related U-Net repository is labeled as related code rather than the official paper release.
 
 The information architecture is inspired by https://tairanhe.com/; the source and styling were written independently.
+
+## Visitor statistics
+
+Umami Cloud tracks this domain using public website ID `4b967c95-93ae-43ca-9a20-58d74b66b744`. The bottom of the page embeds a read-only board with a world map and aggregate metrics: https://cloud.umami.is/share/bcpFTc8xqWInfQnd. Manage the board in the owner's Umami Cloud account under Boards. Tracking begins with this deployment; it cannot recover visits from before installation.
+
+The selected coursework contains only A grades from the supplied WES evaluation. The private transcript and original presentation are not published. Five research videos are compressed H.264 MP4 files with native controls, no autoplay, and no preloading.
