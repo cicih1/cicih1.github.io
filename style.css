@@ -46,3 +46,6 @@
 .page-intro + #education{padding-top:0}
 
 @media(min-width:901px){#f1-volunteering .life-thumbnail{padding:8px}}
+
+.portrait-switcher{margin-bottom:22px}.portrait-panel[hidden],.portrait-controls[hidden]{display:none}.portrait-panel .portrait{width:235px;height:235px;object-fit:cover;margin:0}.portrait-controls{display:flex;gap:7px;margin-top:10px}.portrait-controls button{font:inherit;font-size:11px;padding:4px 9px;border:1px solid var(--line);border-radius:4px;background:white;color:var(--muted);cursor:pointer}.portrait-controls button[aria-pressed="true"]{color:var(--accent);background:var(--pale);border-color:var(--accent)}.portrait-controls button:focus-visible{outline:2px solid var(--accent);outline-offset:3px}.conference-layout{display:grid;grid-template-columns:minmax(0,1fr) 240px;gap:40px;align-items:start;margin-top:24px}.conference-layout figure{margin:0}.conference-layout img{width:100%;height:auto;border-radius:5px}.conference-layout figcaption{font-size:12px;color:var(--muted);margin-top:8px}.conference-layout .service-list{margin:0}
+@media(max-width:760px){.portrait-panel .portrait{width:160px;height:160px}.portrait-switcher{margin-bottom:0}.conference-layout{grid-template-columns:1fr;gap:20px}.conference-layout figure{max-width:240px}}

@@ -52,3 +52,5 @@ Scholar links were obtained from Georgia Tech's bioengineering directory, the Br
 `assets/life/f1-volunteers-2025.jpg` and `assets/life/travel-waterfront.jpg`: original user-supplied photographs. The user confirmed volunteering at the Shanghai F1 event in both 2025 and 2026; the group photograph shows the 2025 event. Compact card layout independently implemented, with minimal portfolio inspiration from https://github.com/korbinianmoller/personal_website_template .
 
 `assets/life/tennis.jpg`: original tennis collage supplied by Yanxi Chen. Academic personal-site references reviewed for concise hobby presentation: https://www.jeremymorgan.io/ and https://yixuanhuang.com/ .
+
+`assets/life/iros-2026-pittsburgh.jpg`: original photograph supplied by Yanxi Chen, who confirmed presenting at IROS 2026 in Pittsburgh and attending IROS 2025. The 2025 role is listed only as participant.
