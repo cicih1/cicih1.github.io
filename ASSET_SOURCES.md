@@ -54,3 +54,5 @@ Scholar links were obtained from Georgia Tech's bioengineering directory, the Br
 `assets/life/tennis.jpg`: original tennis collage supplied by Yanxi Chen. Academic personal-site references reviewed for concise hobby presentation: https://www.jeremymorgan.io/ and https://yixuanhuang.com/ .
 
 `assets/life/iros-2026-pittsburgh.jpg`: original photograph supplied by Yanxi Chen, who confirmed presenting at IROS 2026 in Pittsburgh and attending IROS 2025. The 2025 role is listed only as participant.
+
+`assets/life/iros-2025-hangzhou.jpg`: original IROS 2025 group photograph supplied by Yanxi Chen, who confirmed the location as Hangzhou, China. Original image preserved, with EXIF-aware display dimensions.
