@@ -1,4 +1,4 @@
-/* Sort dated news newest first. Year-only entries follow known dates that year. */
+/* Explicitly pinned highlights first; remaining news newest first. */
 (() => {
   const list = document.querySelector('#news .news-list');
   if (!list) return;
@@ -9,6 +9,13 @@
     return year * 10000 + month * 100 + day;
   };
   const items = Array.from(list.children);
-  items.sort((a, b) => dateKey(b) - dateKey(a));
+  const pinKey = item => {
+    const rank = Number(item.getAttribute('data-pin-order'));
+    return rank > 0 ? rank : Infinity;
+  };
+  items.sort((a, b) => {
+    const aPin = pinKey(a), bPin = pinKey(b);
+    return aPin === bPin ? dateKey(b) - dateKey(a) : aPin - bPin;
+  });
   list.append(...items);
 })();
