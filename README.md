@@ -50,3 +50,5 @@ The original ALO–RATS workshop poster is at `assets/posters/alo-rats-iros-2026
 The Publications navigation item retains `research.html` for URL compatibility: Publications & Manuscripts, Patent applications, Reviewer Service, then Invited Talks. `education.html` contains the undergraduate degree, A-grade coursework, then Honors & awards. `service.html` is the standalone Beyond the lab page (accessible heart navigation), with golf photographs and volunteer service. Former service-page honors/reviewer anchors redirect to their new locations.
 
 News highlights: `data-pin-order="1"` pins the first-author IROS 2026 acceptance (June 2026); `data-pin-order="2"` pins the co-first-author ALO–RATS workshop news (September 2026). Dates confirmed by the owner. Other entries remain chronological. Remove the attribute and pin icon to unpin an item.
+
+Homepage photos rotate every 30 seconds without buttons; rotation pauses while the page is hidden, the photo is hovered/focused, or reduced motion is requested. GPA remains on the homepage and Education without an inline WES label; its WES basis is explained together with course grades in the Education note.
