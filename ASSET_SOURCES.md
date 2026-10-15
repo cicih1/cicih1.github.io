@@ -44,3 +44,9 @@ Scholar links were obtained from Georgia Tech's bioengineering directory, the Br
 ## ALO–RATS poster
 
 `assets/posters/alo-rats-iros-2026.pdf` is the original owner-provided IROS 2026 ELSR Workshop poster, copied without content changes. `assets/posters/alo-rats-iros-2026.webp` is a whole-page rendering for web preview. The PDF download preserves the original resolution and author information.
+
+## Golf photographs
+
+`assets/life/golf-portrait.jpg` and `assets/life/golf-championship.jpg`: original photographs provided by Yanxi Chen on October 16, 2026 for her personal website. Repeated championship attachment omitted. Event title is visible on the supplied photograph; linked event report: https://mp.weixin.qq.com/s/MxDkY6hleUiEIBOuapmMSg . Results were subsequently confirmed by the owner-supplied results table: Second Prize in the women’s 50-yard event, Third Prize in women’s putting, and Second Prize for the Tongji skills team. `assets/life/golf-on-course.jpg` and `assets/life/golf-results.png` are the additional original photograph and results clipping supplied by the owner.
+
+`assets/life/f1-volunteers-2025.jpg` and `assets/life/travel-waterfront.jpg`: original user-supplied photographs. The user confirmed volunteering at the Shanghai F1 event in both 2025 and 2026; the group photograph shows the 2025 event. Compact card layout independently implemented, with minimal portfolio inspiration from https://github.com/korbinianmoller/personal_website_template .
