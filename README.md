@@ -8,7 +8,8 @@ The website includes research and publications, all four research appointments, 
 
 - `index.html`: biography, dated News, selected research, contact links, and visitor map.
 - `research.html`: all publications, research photos/videos, manuscript statuses, invited talks, and patents.
-- `experience.html`: research appointments, projects, education, A-grade coursework, and skills.
+- `experience.html`: research appointments, Scholar-linked advisor portraits, projects, and skills.
+- `education.html`: degree, GPA, and A-grade coursework.
 - `service.html`: Reviewer Service, honors, and volunteering.
 - `assets/navigation.js`: preserves old homepage section links by redirecting to their new pages.
 - `style.css`: layout, typography, mobile and print styles.
@@ -36,6 +37,8 @@ Umami Cloud tracks this domain using public website ID `4b967c95-93ae-43ca-9a20-
 
 The selected coursework contains only A grades from the supplied WES evaluation. The private transcript and original presentation are not published. Five research videos are compressed H.264 MP4 files with native controls, no autoplay, and no preloading.
 
-News uses dates supported by the supplied CV and award materials. Entries without a verified month use the year only. Older updates are under an accessible “Earlier news” disclosure. All pages have consistent navigation, their own title/canonical URL, and one Umami tracker. Keep new News entries concise and link to the relevant full page.
+News uses dates supported by the supplied CV and award materials. Entries without a verified month use the year only. All eight papers/manuscripts are included with their current status in a keyboard-accessible, manually scrollable region. News remains on the homepage and is not a separate navigation item. All five pages have consistent navigation, their own title/canonical URL, and one Umami tracker. Keep new News entries concise and link to the relevant full page.
+
+The original ALO–RATS workshop poster is at `assets/posters/alo-rats-iros-2026.pdf`, with a rendered WebP preview. Advisor photos link to verified Google Scholar profiles; official photo sources are recorded in `ASSET_SOURCES.md`. Edit the current HTML files for routine maintenance; scripts under the local work directory describe historical migrations and should not be blindly rerun.
 
 `assets/visitors.js` lazily loads the total and country aggregates when the footer approaches the viewport. No account credentials or API keys are used; the public share token is fetched at runtime and kept in memory. A failed request shows an unavailable message rather than an invented zero. The full Umami dashboard remains available to the owner.

@@ -26,3 +26,21 @@ Publication metadata follows the October 14, 2026 CV. Selected courses and the G
 ## Visitor map
 
 Country outlines and ISO mappings are derived from Umami’s `public/datamaps.world.json` and `src/lib/constants.ts` (https://github.com/umami-software/umami), under the MIT license. The license is included at `assets/licenses/umami-map-MIT.txt`. A compact equirectangular projection is generated locally; visitor counts and locations come from the owner’s public, read-only Umami share.
+
+## Advisor portraits and Scholar destinations
+
+Official faculty portraits identify the research advisors named in the owner's CV. Original image bytes are retained; display sizing uses CSS. Copyright remains with the respective photographers/institutions; no endorsement is implied. Scholar profile names and affiliations were checked on October 15, 2026.
+
+| Portrait | Official photo source | Google Scholar |
+| --- | --- | --- |
+| `assets/advisors/yue-chen.jpg` | [Georgia Tech faculty page](https://bme.gatech.edu/bio/yue-chen), [image](https://bme.gatech.edu/sites/default/files/styles/242x336_non-webp/public/2025-11/Yue%20Chen%20headshot%20crop.jpeg?h=8a92f3d8&itok=4bRi3X4f) | https://scholar.google.com/citations?user=dDPQH3oAAAAJ |
+| `assets/advisors/patrick-codd.jpg` | [Duke faculty page](https://mems.duke.edu/people/patrick-codd/), [image](https://scholars.duke.edu/profile-images/thumbnail500/0323984.jpg) | https://scholar.google.com/citations?user=c5qrU4gAAAAJ |
+| `assets/advisors/leila-bridgeman.jpg` | [Duke Robotics faculty page](https://robotics.duke.edu/faculty/leila-bridgeman), [image](https://robotics.duke.edu/sites/robotics.duke.edu/files/images/members/0754103.jpg) | https://scholar.google.com/citations?user=1L5uC_0AAAAJ |
+| `assets/advisors/peng-qi.jpg` | [Tongji faculty page](https://see-en.tongji.edu.cn/info/1016/1158.htm), [image](https://see-en.tongji.edu.cn/__local/9/1D/D1/63D391E4A86CC04089248C63E77_5F416A3C_D85EA.jpg) | https://scholar.google.com/citations?user=W1CPjP8AAAAJ |
+| `assets/advisors/yichao-tang.png` | [Tongji faculty page](https://faculty.tongji.edu.cn/YichaoTang/en/more/581436/jsjjgd/index.htm), [image](https://faculty.tongji.edu.cn/_resources/group1/M00/00/21/wKhyF2I1fxGAPnujAAHdpbbcyec034.png) | https://scholar.google.com/citations?user=Q8ZfuBcAAAAJ |
+
+Scholar links were obtained from Georgia Tech's bioengineering directory, the Brain Tool Lab, DBLP, the professor's personal research page, and the matching Tongji Scholar profile, then verified against all five Google Scholar profiles.
+
+## ALO–RATS poster
+
+`assets/posters/alo-rats-iros-2026.pdf` is the original owner-provided IROS 2026 ELSR Workshop poster, copied without content changes. `assets/posters/alo-rats-iros-2026.webp` is a whole-page rendering for web preview. The PDF download preserves the original resolution and author information.
