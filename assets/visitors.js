@@ -11,6 +11,8 @@
   const names = typeof Intl.DisplayNames === 'function'
     ? new Intl.DisplayNames(['en'], { type: 'region' }) : null;
 
+  const regionName = code => code === 'CN' ? 'China mainland' : (names?.of(code) || code);
+
   async function get(path, headers = {}) {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), 15000);
@@ -55,7 +57,7 @@
         if (!/^[A-Z]{2}$/.test(code) || !Number.isFinite(item.y) || item.y <= 0) continue;
         const shape = section.querySelector(`[data-country="${code}"]`);
         if (!shape) continue;
-        const label = `${names?.of(code) || code}: ${number.format(item.y)} visitor${item.y === 1 ? '' : 's'}`;
+        const label = `${regionName(code)}: ${number.format(item.y)} visitor${item.y === 1 ? '' : 's'}`;
         shape.classList.add('has-visitors');
         shape.setAttribute('tabindex', '0');
         shape.setAttribute('aria-label', label);
@@ -64,7 +66,7 @@
         shape.addEventListener('focus', () => { status.textContent = label; });
         located++;
       }
-      const hint = located ? 'Hover or focus on a highlighted country to explore.'
+      const hint = located ? 'Hover or focus on a highlighted country or region to explore.'
         : 'Visitor locations will appear as geographic data becomes available.';
       status.textContent = hint;
       section.querySelector('svg').addEventListener('mouseleave', () => { status.textContent = hint; });
