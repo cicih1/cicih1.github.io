@@ -11,7 +11,7 @@
   const names = typeof Intl.DisplayNames === 'function'
     ? new Intl.DisplayNames(['en'], { type: 'region' }) : null;
 
-  const regionName = code => code === 'CN' ? 'China mainland' : (names?.of(code) || code);
+  const regionName = code => code === 'CN' ? 'China' : (names?.of(code) || code);
 
   async function get(path, headers = {}) {
     const controller = new AbortController();
@@ -51,13 +51,19 @@
         status.textContent = 'Visitor locations are temporarily unavailable.';
         return;
       }
-      let located = 0;
+      // Match the combined CN/TW map geometry with one aggregate display value.
+      const grouped = new Map();
       for (const item of results[1].value) {
-        const code = String(item.x || '').toUpperCase();
-        if (!/^[A-Z]{2}$/.test(code) || !Number.isFinite(item.y) || item.y <= 0) continue;
+        const originalCode = String(item.x || '').toUpperCase();
+        if (!/^[A-Z]{2}$/.test(originalCode) || !Number.isFinite(item.y) || item.y <= 0) continue;
+        const code = originalCode === 'TW' ? 'CN' : originalCode;
+        grouped.set(code, (grouped.get(code) || 0) + item.y);
+      }
+      let located = 0;
+      for (const [code, visitors] of grouped) {
         const shape = section.querySelector(`[data-country="${code}"]`);
         if (!shape) continue;
-        const label = `${regionName(code)}: ${number.format(item.y)} visitor${item.y === 1 ? '' : 's'}`;
+        const label = `${regionName(code)}: ${number.format(visitors)} visitor${visitors === 1 ? '' : 's'}`;
         shape.classList.add('has-visitors');
         shape.setAttribute('tabindex', '0');
         shape.setAttribute('aria-label', label);
